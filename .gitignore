@@ -1,0 +1,11 @@
+###> PHPStorm ###
+/.idea
+###< PHPStorm ###
+
+###> NextJS ###
+.env.local
+build
+node
+.next
+node_modules
+###< NextJS ###
