@@ -26,8 +26,8 @@ export default %s;
 
 JSX;
 
-const URL = 'https://www.icy-veins.com/wow/the-nokhud-offensive-dungeon-guide';
-const DUNGEON = 'TheNokhudOffensive';
+const URL = 'https://www.icy-veins.com/wow/the-azure-vault-dungeon-guide';
+const DUNGEON = 'TheAzureVault';
 
 $ch = curl_init();
 
