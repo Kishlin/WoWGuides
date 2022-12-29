@@ -10,4 +10,14 @@ module.exports = {
             },
         ];
     },
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'static.icy-veins.com',
+                port: '',
+                pathname: '/images/**',
+            },
+        ],
+    },
 };
