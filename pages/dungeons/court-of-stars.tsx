@@ -283,20 +283,6 @@ const CourtOfStars: FunctionComponent = () => (
                 </Healer>
             </HealerTips>
         </BossSection>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </Layout>
 );
 
