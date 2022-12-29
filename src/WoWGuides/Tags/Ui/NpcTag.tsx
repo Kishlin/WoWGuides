@@ -7,7 +7,7 @@ declare type NpcTagProps = {
 };
 
 const NpcTag: FunctionComponent<NpcTagProps> = ({ children, link }) => (
-    <Link color="secondary.main" href={link} target="_blank">
+    <Link color="secondary.main" href={link} target="_blank" style={{ textDecoration: 'none' }}>
         {children}
     </Link>
 );

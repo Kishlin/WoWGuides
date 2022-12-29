@@ -6,7 +6,7 @@ declare type SectionTitleProps = {
 };
 
 const SectionTitle: FunctionComponent<SectionTitleProps> = ({ children }) => (
-    <Typography variant="h3">
+    <Typography variant="h4">
         {children}
     </Typography>
 );

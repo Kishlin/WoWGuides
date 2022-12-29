@@ -6,7 +6,7 @@ declare type GettingThereTitleProps = {
 };
 
 const GettingThereTitle: FunctionComponent<GettingThereTitleProps> = ({ children }) => (
-    <Typography variant="h3">
+    <Typography variant="h4">
         {children}
     </Typography>
 );

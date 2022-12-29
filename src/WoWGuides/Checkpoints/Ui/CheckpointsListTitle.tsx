@@ -6,7 +6,7 @@ declare type CheckpointsListTitleProps = {
 };
 
 const CheckpointsListTitle: FunctionComponent<CheckpointsListTitleProps> = ({ children }) => (
-    <Typography variant="h3">
+    <Typography variant="h4">
         {children}
     </Typography>
 );

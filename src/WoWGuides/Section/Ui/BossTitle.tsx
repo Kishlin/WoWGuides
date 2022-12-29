@@ -6,7 +6,7 @@ declare type BossTitleProps = {
 };
 
 const BossTitle: FunctionComponent<BossTitleProps> = ({ children }) => (
-    <Typography variant="h3">
+    <Typography variant="h4">
         {children}
         <Typography variant="button" color="error.main"> [Boss!]</Typography>
     </Typography>

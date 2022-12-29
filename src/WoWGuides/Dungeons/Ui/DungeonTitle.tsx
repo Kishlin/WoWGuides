@@ -6,7 +6,7 @@ declare type DungeonTitleProps = {
 };
 
 const DungeonTitle: FunctionComponent<DungeonTitleProps> = ({ children }) => (
-    <Typography variant="h1">
+    <Typography variant="h2">
         {children}
     </Typography>
 );

@@ -19,7 +19,7 @@ const paletteOptions: ThemeOptions = {
         },
         background: {
             default: '#121212',
-            paper: 'rgba(43,43,43,0.74)',
+            paper: '#162c44',
         },
         divider: 'rgba(255,255,255,0.12)',
     },

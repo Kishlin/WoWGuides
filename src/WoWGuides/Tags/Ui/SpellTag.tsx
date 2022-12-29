@@ -7,7 +7,7 @@ declare type SpellTagProps = {
 };
 
 const SpellTag: FunctionComponent<SpellTagProps> = ({ children, link }) => (
-    <Link color="primary.main" href={link} target="_blank">
+    <Link color="primary.main" href={link} target="_blank" style={{ textDecoration: 'none' }}>
         {children}
     </Link>
 );
