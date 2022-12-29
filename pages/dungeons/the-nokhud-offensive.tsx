@@ -113,7 +113,7 @@ import SpellSavageStrike from '../../src/WoWGuides/Dungeons/TheNokhudOffensive/S
 import SpellStormwinds from '../../src/WoWGuides/Dungeons/TheNokhudOffensive/Spells/SpellStormwinds';
 import SpellConductiveStrike from '../../src/WoWGuides/Dungeons/TheNokhudOffensive/Spells/SpellConductiveStrike';
 
-const RubyLifePools: FunctionComponent = () => (
+const TheNokhudOffensive: FunctionComponent = () => (
     <Layout>
         <Dungeon>The Nokhud Offensive</Dungeon>
 
@@ -471,4 +471,4 @@ const RubyLifePools: FunctionComponent = () => (
     </Layout>
 );
 
-export default RubyLifePools;
+export default TheNokhudOffensive;
