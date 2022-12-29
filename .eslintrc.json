@@ -73,6 +73,7 @@
                 "extensions": [".js", ".jsx", ".ts", ".tsx"]
             }
         ],
-        "yoda": ["error", "always"]
+        "yoda": ["error", "always"],
+        "react/jsx-one-expression-per-line": "off"
     }
 }
