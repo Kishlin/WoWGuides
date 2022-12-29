@@ -68,7 +68,7 @@ const RubyLifePools: FunctionComponent = () => (
             </Tips>
 
             <p>
-                <span>First "mini-boss" at the end of The Infusion Chambers just before </span>
+                <span>First &quot;mini-boss&quot; at the end of The Infusion Chambers just before </span>
                 <Npc id={188252}>Melidrusa Chillworn</Npc>
                 <span>. </span>
                 <Npc id={187897}>Defier Draghar</Npc>
@@ -229,18 +229,18 @@ const RubyLifePools: FunctionComponent = () => (
                 </Tip>
                 <Rupt>
                     <Npc id={190207}>Primalist Cinderweaver</Npc>
-                    <span>'s </span>
+                    <span>&apos;s </span>
                     <Spell id={384194}>Cinderbolt</Spell>
                     <span> target a random player. When casting </span>
                     <Spell id={385063}>Burning Ambition</Spell>
                     <span>, takes more damage but increases hast.</span>
-                    <span> Don't purge buff to speed up kill.</span>
+                    <span> Don&apos;t purge buff to speed up kill.</span>
                 </Rupt>
                 <Rupt>
                     <Spell id={385536}>Flame Dance</Spell>
                     <span> from </span>
                     <Npc id={190206}>Primalist Flamedancer</Npc>
-                    <span> can't be interrupt, but Stun or Disruption work.</span>
+                    <span> can&apos;t be interrupt, but Stun or Disruption work.</span>
                 </Rupt>
                 <Tip>
                     <Npc id={194622}>Scorchling</Npc>
@@ -267,7 +267,7 @@ const RubyLifePools: FunctionComponent = () => (
                 </Tip>
                 <Rupt>
                     <Npc id={189886}>Blazebound Firestorm</Npc>
-                    <span>'s </span>
+                    <span>&apos;s </span>
                     <Spell id={373017}>Roaring Blaze</Spell>
                 </Rupt>
                 <Tip>
@@ -320,73 +320,73 @@ const RubyLifePools: FunctionComponent = () => (
 
             <Tips>
                 <Tip>
-                    <Npc id={123}>Storm warrior</Npc>
+                    <Npc id={197982}>Storm warrior</Npc>
                     <span>s cast </span>
-                    <Spell id={123}>Thunderclap</Spell>
+                    <Spell id={392406}>Thunderclap</Spell>
                     <span>, damaging all in range and reducing haste </span>
                     <span>and movespeed.</span>
                 </Tip>
                 <Tip>
                     <span>Use a Purge on </span>
-                    <Npc id={123}>Primal Thundercloud</Npc>
-                    <span>'s </span>
-                    <Spell id={123}>Tempest Barrier</Spell>
+                    <Npc id={197509}>Primal Thundercloud</Npc>
+                    <span>&apos;s </span>
+                    <Spell id={391031}>Tempest Barrier</Spell>
                     <span> to speed up killing them.</span>
                 </Tip>
                 <Rupt>
                     <span>Use defensives when </span>
-                    <Npc id={123}>Tempest Channeler</Npc>
+                    <Npc id={198047}>Tempest Channeler</Npc>
                     <span> is casting </span>
-                    <Spell id={123}>Lightning Storm</Spell>
+                    <Spell id={392488}>Lightning Storm</Spell>
                     <span>. Interrupt </span>
-                    <Spell id={123}>Thunderbolt</Spell>
+                    <Spell id={390449}>Thunderbolt</Spell>
                     <span> and care when she spawns </span>
-                    <Spell id={123}>Summon Primal Thundercloud</Spell>
+                    <Spell id={392574}>Summon Primal Thundercloud</Spell>
                     <span>.</span>
                 </Rupt>
                 <Rupt>
-                    <Npc id={123}>Flame Channeler</Npc>
-                    <span>'s </span>
-                    <Spell id={123}>Flashfire</Spell>
+                    <Npc id={197985}>Flame Channeler</Npc>
+                    <span>&apos;s </span>
+                    <Spell id={392451}>Flashfire</Spell>
                     <span>, dealing damage to a random player and healing the </span>
                     <span>Channeler. You can choose to ignore </span>
-                    <Spell id={123}>Burning Veins</Spell>
+                    <Spell id={392454}>Burning Veins</Spell>
                     <span>, making them take more damage and increasing their haste.</span>
                 </Rupt>
             </Tips>
 
             <p>
                 <span>Defeat </span>
-                <Npc id={123}>High Channeler Ryvati</Npc>
+                <Npc id={197535}>High Channeler Ryvati</Npc>
                 <span>to spawn </span>
-                <Npc id={123}>Kyrakka</Npc>
+                <Npc id={193435}>Kyrakka</Npc>
                 <span> and </span>
-                <Npc id={123}>Erkhart Stormvein</Npc>
+                <Npc id={190485}>Erkhart Stormvein</Npc>
                 <span>.</span>
             </p>
 
             <Tips>
                 <Rupt>
-                    <Spell id={123}>Shock Blast</Spell>
+                    <Spell id={392924}>Shock Blast</Spell>
                     <span>, dealing high damage plus lingering damage-over-time.</span>
                 </Rupt>
                 <Tip>
                     <span>Use defensives when </span>
-                    <Npc id={123}>High Channeler Ryvati</Npc>
+                    <Npc id={197535}>High Channeler Ryvati</Npc>
                     <span> is casting </span>
-                    <Spell id={123}>Lightning Storm</Spell>
+                    <Spell id={392488}>Lightning Storm</Spell>
                     <span>.</span>
                 </Tip>
                 <Tip>
                     <span>Break </span>
-                    <Spell id={123}>Tempest Stormshield</Spell>
+                    <Spell id={391050}>Tempest Stormshield</Spell>
                     <span> asap.</span>
                 </Tip>
                 <Tank>
                     <span>Gain threat on </span>
-                    <Npc id={123}>Primal Thundercloud</Npc>
+                    <Npc id={197509}>Primal Thundercloud</Npc>
                     <span> asap when spawned with </span>
-                    <Spell id={123}>Summon Primal Thundercloud</Spell>
+                    <Spell id={392574}>Summon Primal Thundercloud</Spell>
                     <span>.</span>
                 </Tank>
             </Tips>
@@ -397,47 +397,47 @@ const RubyLifePools: FunctionComponent = () => (
 
             <p>
                 <span>Fight </span>
-                <Npc id={123}>Erkhart Stormvein</Npc>
+                <Npc id={190485}>Erkhart Stormvein</Npc>
                 <span> first, but at 50% </span>
-                <Npc id={123}>Kyrakka</Npc>
+                <Npc id={193435}>Kyrakka</Npc>
                 <span> will join.</span>
             </p>
 
             <Tips>
                 <Tip>
                     <span>Dodge </span>
-                    <Spell id={123}>Roaring Firebreath</Spell>
+                    <Spell id={381525}>Roaring Firebreath</Spell>
                     <span> from </span>
-                    <Npc id={123}>Kyrakka</Npc>
+                    <Npc id={193435}>Kyrakka</Npc>
                     <span>, failing to will apply </span>
-                    <Spell id={123}>Infernocore</Spell>
+                    <Spell id={381862}>Infernocore</Spell>
                     <span> which, when expriing, will leave </span>
-                    <Spell id={123}>Flaming Embers</Spell>
+                    <Spell id={384773}>Flaming Embers</Spell>
                     <span> fire pools on the ground. </span>
                     <span>Embers re-apply Infernocore to targets.</span>
                 </Tip>
                 <Tip>
-                    <Npc id={123}>Erkhart Stormvein</Npc>
+                    <Npc id={190485}>Erkhart Stormvein</Npc>
                     <span> periodically casts </span>
-                    <Spell id={123}>Interrupting Cloudburst</Spell>
+                    <Spell id={381516}>Interrupting Cloudburst</Spell>
                     <span>, massive torrent interrupting casts and locking you </span>
                     <span>for 4 seconds.</span>
                 </Tip>
                 <Tip>
-                    <Npc id={123}>Erkhart Stormvein</Npc>
-                    <span>'s </span>
-                    <Spell id={123}>Winds of Change</Spell>
+                    <Npc id={190485}>Erkhart Stormvein</Npc>
+                    <span>&apos;s </span>
+                    <Spell id={381517}>Winds of Change</Spell>
                     <span> deal AoE damage to everyone and pushes back. Also moving </span>
-                    <Spell id={123}>Flaming Embers</Spell>
+                    <Spell id={384773}>Flaming Embers</Spell>
                     <span>, applying </span>
-                    <Spell id={123}>Infernocore</Spell>
+                    <Spell id={381862}>Infernocore</Spell>
                     <span> on contact.</span>
                 </Tip>
                 <Tip>
                     <span>During phase 1, </span>
-                    <Npc id={123}>Kyrakka</Npc>
+                    <Npc id={193435}>Kyrakka</Npc>
                     <span> randomly casts </span>
-                    <Spell id={123}>Flamespit</Spell>
+                    <Spell id={381607}>Flamespit</Spell>
                     <span> on a player.</span>
                 </Tip>
             </Tips>
@@ -445,16 +445,16 @@ const RubyLifePools: FunctionComponent = () => (
             <TankTips>
                 <Tank>
                     <span>Once </span>
-                    <Npc id={123}>Kyrakka</Npc>
+                    <Npc id={193435}>Kyrakka</Npc>
                     <span> casts </span>
-                    <Spell id={123}>Roaring Firebreath</Spell>
+                    <Spell id={381525}>Roaring Firebreath</Spell>
                     <span>, move </span>
-                    <Npc id={123}>Erkhart Stormvein</Npc>
+                    <Npc id={190485}>Erkhart Stormvein</Npc>
                     <span> closer for cleave.</span>
                 </Tank>
                 <Tank>
                     <span>Beware of </span>
-                    <Spell id={123}>Stormslam</Spell>
+                    <Spell id={381512}>Stormslam</Spell>
                     <span> frontal, massive damage plus debuff increasing</span>
                     <span> nature damage, dispellable.</span>
                 </Tank>
@@ -463,26 +463,26 @@ const RubyLifePools: FunctionComponent = () => (
             <HealerTips>
                 <Healer>
                     <span>Top up players who have </span>
-                    <Spell id={123}>Infernocore</Spell>
+                    <Spell id={381862}>Infernocore</Spell>
                     <span>.</span>
                 </Healer>
                 <Healer>
-                    <span>Dispel tank's debuff from </span>
-                    <Spell id={123}>Stormslam</Spell>
+                    <span>Dispel tank&apos;s debuff from </span>
+                    <Spell id={381512}>Stormslam</Spell>
                     <span>.</span>
                 </Healer>
                 <Healer>
                     <span>Top up players targetted by </span>
-                    <Spell id={123}>Flamespit</Spell>
+                    <Spell id={381607}>Flamespit</Spell>
                     <span> as it applies </span>
-                    <Spell id={123}>Infernocore</Spell>
+                    <Spell id={381862}>Infernocore</Spell>
                     <span>.</span>
                 </Healer>
                 <Healer>
                     <span>In phase 2, use healing cooldowns on </span>
-                    <Spell id={123}>Flamespit</Spell>
+                    <Spell id={381607}>Flamespit</Spell>
                     <span> as it targets everyone and apply </span>
-                    <Spell id={123}>Infernocore</Spell>
+                    <Spell id={381862}>Infernocore</Spell>
                     <span>.</span>
                 </Healer>
             </HealerTips>
