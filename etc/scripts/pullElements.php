@@ -1,8 +1,9 @@
 <?php
 
 const TEMPLATE_NPC = <<<'JSX'
-import Npc from '../../../Tags/Components/Npc';
 import { FunctionComponent } from 'react';
+
+import Npc from '../../../Tags/Components/Npc';
 
 const %s: FunctionComponent = () => (
     <Npc id={%d}>%s</Npc>
@@ -13,8 +14,9 @@ export default %s;
 JSX;
 
 const TEMPLATE_SPELL = <<<'JSX'
-import Spell from '../../../Tags/Components/Spell';
 import { FunctionComponent } from 'react';
+
+import Spell from '../../../Tags/Components/Spell';
 
 const %s: FunctionComponent = () => (
     <Spell id={%d}>%s</Spell>
@@ -49,7 +51,7 @@ for ($i = 0; $i < count($rawNpcs[0]); ++$i) {
 
     $npcs[$rawNpcs[1][$i]] = true;
 
-    $component = preg_replace('/[^a-zA-Z0-9-_\.]/','', $rawNpcs[2][$i]);
+    $component = 'Npc' . preg_replace('/[^a-zA-Z0-9]/','', $rawNpcs[2][$i]);
 
     file_put_contents(
         sprintf(__DIR__ . '/../../src/WoWGuides/Dungeons/%s/Npcs/%s.tsx', DUNGEON, $component),
@@ -64,7 +66,7 @@ for ($i = 0; $i < count($rawSpells[0]); ++$i) {
 
     $spells[$rawSpells[1][$i]] = true;
 
-    $component = preg_replace('/[^a-zA-Z0-9-_\.]/','', $rawSpells[2][$i]);
+    $component = 'Spell' . preg_replace('/[^a-zA-Z0-9]/','', $rawSpells[2][$i]);
 
     file_put_contents(
         sprintf(__DIR__ . '/../../src/WoWGuides/Dungeons/%s/Spells/%s.tsx', DUNGEON, $component),
