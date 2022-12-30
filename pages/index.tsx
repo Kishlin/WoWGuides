@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Grid, Typography } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../src/Shared/Layout/Component/Layout';
 
@@ -74,6 +75,9 @@ const Home: React.FunctionComponent = () => {
 
     return (
         <Layout>
+            <Head>
+                <title>WoW Guides</title>
+            </Head>
             <Box sx={{ pt: 16, pb: 2 }}>
                 <Grid container>
                     {dungeonsJSX}

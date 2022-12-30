@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -68,6 +69,10 @@ import SpellWitherWill from '../../src/WoWGuides/Dungeons/TempleOfTheJadeSerpent
 
 const TempleOfTheJadeSerpent: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>Temple of the Jade Serpent</title>
+        </Head>
+
         <Dungeon>Temple of the Jade Serpent</Dungeon>
 
         <GettingThere>The Jade Forest, Pandaria. Fly North.</GettingThere>

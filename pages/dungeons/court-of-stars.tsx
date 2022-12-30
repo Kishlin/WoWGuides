@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -52,6 +53,10 @@ import CenteredImage from '../../src/Shared/Images/Components/CenteredImage';
 
 const CourtOfStars: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>Court of Stars</title>
+        </Head>
+
         <Dungeon>Court of Stars</Dungeon>
 
         <GettingThere>South coast of Suramar, Broken Isles.</GettingThere>

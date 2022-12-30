@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -115,6 +116,10 @@ import SpellConductiveStrike from '../../src/WoWGuides/Dungeons/TheNokhudOffensi
 
 const TheNokhudOffensive: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>The Nokhud Offensive</title>
+        </Head>
+
         <Dungeon>The Nokhud Offensive</Dungeon>
 
         <GettingThere>Fly to Ohn&apos; ahran. North West.</GettingThere>

@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -105,6 +106,10 @@ import SpellUnleashedDestruction from '../../src/WoWGuides/Dungeons/TheAzureVaul
 
 const TheAzureVault: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>The Azure vault</title>
+        </Head>
+
         <Dungeon>The Azure Vault</Dungeon>
 
         <GettingThere>Fly to The Azure Span. South East on tower.</GettingThere>

@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -52,6 +53,10 @@ import SpellRitualofBones from '../../src/WoWGuides/Dungeons/ShadowoonBurialGrou
 
 const ShadowmoonBurialGrounds: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>Shadowmoon Burial Grounds</title>
+        </Head>
+
         <Dungeon>Shadowmoon Burial Grounds</Dungeon>
 
         <GettingThere>Shadowmoon Valley, Draenor. Head to the east.</GettingThere>

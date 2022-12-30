@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -106,6 +107,10 @@ import SpellRadiantTempest from '../../src/WoWGuides/Dungeons/HallsOfValor/Spell
 
 const HallsOfValor: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>Halls of Valor</title>
+        </Head>
+
         <Dungeon>Halls of Valor</Dungeon>
 
         <GettingThere>East coast of Stormheim, Broken Isles.</GettingThere>

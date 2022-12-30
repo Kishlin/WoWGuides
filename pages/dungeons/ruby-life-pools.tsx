@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -21,6 +22,10 @@ import Healer from '../../src/WoWGuides/Tips/Components/Healer';
 
 const RubyLifePools: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>Ruby Life Pools</title>
+        </Head>
+
         <Dungeon>Ruby Life Pools</Dungeon>
 
         <GettingThere>Fly to The Waking Shore. South East.</GettingThere>

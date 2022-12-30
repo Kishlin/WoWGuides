@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
+import Head from 'next/head';
 
 import Dungeon from '../../src/WoWGuides/Dungeons/Components/Dungeon';
 import Layout from '../../src/Shared/Layout/Component/Layout';
@@ -110,6 +111,10 @@ import SpellPowerVacuum from '../../src/WoWGuides/Dungeons/AlgetharAcademy/Spell
 
 const AlgetharAcademy: FunctionComponent = () => (
     <Layout>
+        <Head>
+            <title>Algeth&apos;ar Academy</title>
+        </Head>
+
         <Dungeon>AlGeth&apos;ar Academy</Dungeon>
 
         <GettingThere>Fly to Thaldraszus. North.</GettingThere>
