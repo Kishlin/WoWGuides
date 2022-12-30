@@ -8,6 +8,15 @@ declare type CenteredImageProps = {
     height: number,
     alt: string,
     src: string,
+    sx: {
+        display: {
+            xs?: string,
+            sm?: string,
+            md?: string,
+            lg?: string,
+            xl?: string,
+        }
+    }
 }
 
 const CenteredImage: React.FunctionComponent<CenteredImageProps> = ({
@@ -15,8 +24,9 @@ const CenteredImage: React.FunctionComponent<CenteredImageProps> = ({
     width,
     src,
     alt,
+    sx,
 }) => (
-    <ImageContainer>
+    <ImageContainer sx={sx}>
         <Image width={width} height={height} alt={alt} src={src} />
     </ImageContainer>
 );

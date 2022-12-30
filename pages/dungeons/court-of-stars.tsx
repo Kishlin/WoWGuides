@@ -117,6 +117,31 @@ const CourtOfStars: FunctionComponent = () => (
                 width={750}
                 height={500}
                 alt="bonuses"
+                sx={{ display: { xs: 'none', lg: 'flex' } }}
+                src="https://static.icy-veins.com/images/wow/dragonflight/dungeons/court-of-stars/profession-locations.jpg"
+            />
+
+            <CenteredImage
+                width={562}
+                height={375}
+                alt="bonuses"
+                sx={{ display: { xs: 'none', md: 'flex', lg: 'none' } }}
+                src="https://static.icy-veins.com/images/wow/dragonflight/dungeons/court-of-stars/profession-locations.jpg"
+            />
+
+            <CenteredImage
+                width={500}
+                height={333}
+                alt="bonuses"
+                sx={{ display: { xs: 'none', sm: 'flex', md: 'none' } }}
+                src="https://static.icy-veins.com/images/wow/dragonflight/dungeons/court-of-stars/profession-locations.jpg"
+            />
+
+            <CenteredImage
+                width={250}
+                height={166}
+                alt="bonuses"
+                sx={{ display: { xs: 'flex', sm: 'none' } }}
                 src="https://static.icy-veins.com/images/wow/dragonflight/dungeons/court-of-stars/profession-locations.jpg"
             />
         </Section>
