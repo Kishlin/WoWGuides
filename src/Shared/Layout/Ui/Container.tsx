@@ -14,7 +14,7 @@ const Container: FunctionComponent<ContainerProps> = ({ children }) => {
     };
 
     return (
-        <Box sx={{ backgroundColor: 'background.default', px: 16 }}>
+        <Box sx={{ backgroundColor: 'background.default' }} px={{ xs: 0, sm: 4, md: 16 }}>
             <Stack spacing={1} sx={stackStyle}>
                 {children}
             </Stack>
