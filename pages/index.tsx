@@ -81,6 +81,6 @@ const Home: React.FunctionComponent = () => {
             </Box>
         </Layout>
     );
-}
+};
 
 export default Home;
